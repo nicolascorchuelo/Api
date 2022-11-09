@@ -8,7 +8,7 @@ jobs = 'https://storageinformationpoc.blob.core.windows.net/files/jobs.csv?si=ad
 server = 'hubinfo.database.windows.net'
 database = 'PoCLoadInformationcsv'
 username = 'sysadmin'
-password = 'B0g0t49315N*+' 
+password = 'contraseña' 
 driver= '{ODBC Driver 17 for SQL Server}'
 
 conn = pyodbc.connect('DRIVER='+driver+';SERVER=tcp:'+server+';PORT=1433;DATABASE='+database+';UID='+username+';PWD='+ password)
